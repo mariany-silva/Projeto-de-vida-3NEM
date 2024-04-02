@@ -31,3 +31,19 @@ body{
    width: 100%;
    font-size: 32px;
 }
+
+.titulo-principal span{
+   color: var(--verde);
+}
+    
+.botao{
+    font-family: "Chakra Petch", sans-serif;
+    background-color: var(--botao-ativo);
+    color: var(--branco);
+    display: flex;
+    justify-content: center;
+    padding: 1em;
+    font: 18px;
+    align-items: center;
+    width: 100%;
+}    
