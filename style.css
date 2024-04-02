@@ -47,4 +47,7 @@ body{
     align-items: center;
     width: 100%;
     border-bottom: 4px solid;
+    border-left: 4px solid var(--botao-ativo);
+    border-right: 4px solid var(--botao-ativo);
+    border-top: none;
 }    
