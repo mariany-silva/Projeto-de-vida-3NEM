@@ -36,7 +36,10 @@ const tempos = [tempoObjetivo1, tempoObjetivo2, tempoObjetivo3, tempoObjetivo4];
         return [0,0,0,0];
     }
  return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
+} else {
+       return "Prazo Finalizado";
 }
+    
 
 function atualizaCronometro(){
     for (let i=0; i<contadores.length;i++){
@@ -48,3 +51,5 @@ function comecaCronometro(){
 atualizaCronometro();
 setInterval9(atualizaCronometro,1000);
 }
+
+//comecaCronometro();
